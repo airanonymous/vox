@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Audio Transcript Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #ffffff; }
+        .header { background-color: #888; color: white; text-align: center; padding: 15px; }
+        .category-header { font-size: 1.25rem; font-weight: bold; margin-top: 15px; padding-left: 10px; }
+        .audio-card { background: #ffffff; padding: 15px; border-radius: 8px; text-align: center; border: 1px solid #ddd; }
+        .audio-icon { font-size: 30px; cursor: pointer; }
+        .transcript, .speech-property { background: #ffffff; color: black; padding: 15px; margin-top: 15px; border: 1px solid #ddd; position: relative; border-radius: 5px; }
+        .label { background: #007bff; color: white; padding: 4px 8px; font-size: 0.75rem; border-radius: 4px; position: absolute; top: -16px; left: 10px; }
+    </style>
+</head>
+<body>
+    
+    <!-- <div class="header">
+        <h1>TITLE</h1>
+    </div> -->
+    
+    <div class="container">
+        <div class="category-header mt-3">
+            Prosodic Reasoning
+        </div>
+        
+        <div class="row mt-3">
+            <div class="col-md-6 mb-3">
+                <div class="audio-card p-3">
+                    <audio controls>
+                        <source src="assets/59.wav" type="audio/mp3">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <div class="transcript position-relative">
+                        <span class="label">Transcript</span>
+                        "Welcome to Tales of Mystery, where darkness meets reality." Is my voice dramatic enough for a true crime podcast?
+                    </div>
+                    <div class="speech-property position-relative">
+                        <span class="label">Speech Property</span>
+                        The introduction is delivered in a dramatic tone
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 mb-3">
+                <div class="audio-card p-3">
+                    <audio controls>
+                        <source src="assets/60.wav" type="audio/mp3">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <div class="transcript position-relative">
+                        <span class="label">Transcript</span>
+                        "Welcome to Tales of Mystery, where darkness meets reality." Is my voice dramatic enough for a true crime podcast?
+                    </div>
+                    <div class="speech-property position-relative">
+                        <span class="label">Speech Property</span>
+                        The introduction is delivered in a monotone tone
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="category-header mt-3">
+            Amplitude Analysis
+        </div>
+        
+        <div class="row mt-3">
+            <div class="col-md-6 mb-3">
+                <div class="audio-card p-3">
+                    <audio controls>
+                        <source src="assets/45.wav" type="audio/mp3">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <div class="transcript position-relative">
+                        <span class="label">Transcript</span>
+                        Hey - is my voice too loud like this for a library setting?
+                    </div>
+                    <div class="speech-property position-relative">
+                        <span class="label">Speech Property</span>
+                        Spoken loudly
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 mb-3">
+                <div class="audio-card p-3">
+                    <audio controls>
+                        <source src="assets/46.wav" type="audio/mp3">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <div class="transcript position-relative">
+                        <span class="label">Transcript</span>
+                        Hey - is my voice too loud like this for a library setting?
+                    </div>
+                    <div class="speech-property position-relative">
+                        <span class="label">Speech Property</span>
+                        Spoken in soft whispers
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
